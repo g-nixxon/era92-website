@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="team-1 placeholder">
+  <rect width="300" height="300" fill="#D6D1C2"/>
+  <circle cx="150" cy="120" r="48" fill="#1F2027" opacity="0.5"/>
+  <path d="M70 250 Q150 175 230 250 L230 300 L70 300 Z" fill="#1F2027" opacity="0.5"/>
+  <text x="150" y="280" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F2027" text-anchor="middle">team-1</text>
+</svg>

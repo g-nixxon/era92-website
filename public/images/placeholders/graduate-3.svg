@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="graduate-3 placeholder">
+  <rect width="400" height="400" fill="#FAF6ED"/>
+  <circle cx="200" cy="155" r="55" fill="#1F2027" opacity="0.55"/>
+  <path d="M100 325 Q200 240 300 325 L300 400 L100 400 Z" fill="#1F2027" opacity="0.55"/>
+  <text x="200" y="370" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2027" text-anchor="middle">graduate-3</text>
+</svg>
