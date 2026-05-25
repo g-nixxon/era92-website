@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="sample-web hero placeholder">
+  <rect width="1600" height="900" fill="#FAF6ED"/>
+  <rect x="200" y="120" width="1200" height="640" rx="12" fill="#FFFFFF" stroke="#1F2027" stroke-width="3"/>
+  <rect x="200" y="120" width="1200" height="56" rx="12" fill="#1F2027"/>
+  <circle cx="240" cy="148" r="8" fill="#FF4E00"/>
+  <circle cx="270" cy="148" r="8" fill="#FAF6ED" opacity="0.4"/>
+  <circle cx="300" cy="148" r="8" fill="#FAF6ED" opacity="0.4"/>
+  <rect x="260" y="240" width="500" height="40" fill="#1F2027"/>
+  <rect x="260" y="300" width="700" height="16" fill="#1F2027" opacity="0.4"/>
+  <rect x="260" y="328" width="620" height="16" fill="#1F2027" opacity="0.4"/>
+  <rect x="260" y="396" width="220" height="56" rx="28" fill="#FF4E00"/>
+  <rect x="1020" y="240" width="320" height="440" fill="#D6D1C2"/>
+  <text x="800" y="830" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1F2027" text-anchor="middle">sample-web / hero</text>
+</svg>

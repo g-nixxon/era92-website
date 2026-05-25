@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="sample-web image 2 placeholder">
+  <rect width="800" height="600" fill="#D6D1C2"/>
+  <rect x="100" y="100" width="180" height="400" fill="#FAF6ED" stroke="#1F2027" stroke-width="2"/>
+  <rect x="310" y="100" width="180" height="400" fill="#FAF6ED" stroke="#FF4E00" stroke-width="3"/>
+  <rect x="520" y="100" width="180" height="400" fill="#FAF6ED" stroke="#1F2027" stroke-width="2"/>
+  <text x="190" y="540" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1F2027" text-anchor="middle">Tier A</text>
+  <text x="400" y="540" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1F2027" text-anchor="middle">Tier B</text>
+  <text x="610" y="540" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1F2027" text-anchor="middle">Tier C</text>
+  <text x="400" y="585" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2027" text-anchor="middle">sample-web / 2</text>
+</svg>
