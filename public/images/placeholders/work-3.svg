@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="work-3 placeholder">
+  <rect width="800" height="600" fill="#FAF6ED"/>
+  <circle cx="280" cy="280" r="120" fill="none" stroke="#1F2027" stroke-width="3"/>
+  <circle cx="420" cy="280" r="120" fill="none" stroke="#1F2027" stroke-width="3"/>
+  <circle cx="560" cy="280" r="120" fill="none" stroke="#FF4E00" stroke-width="3"/>
+  <text x="400" y="555" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="600" fill="#1F2027" text-anchor="middle">work-3</text>
+</svg>

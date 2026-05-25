@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="capability-digital placeholder">
+  <rect width="600" height="400" fill="#F5F0E5"/>
+  <polyline points="160,250 220,200 280,225 340,160 400,180 440,140" fill="none" stroke="#1F2027" stroke-width="3"/>
+  <circle cx="160" cy="250" r="5" fill="#FF4E00"/>
+  <circle cx="220" cy="200" r="5" fill="#FF4E00"/>
+  <circle cx="280" cy="225" r="5" fill="#FF4E00"/>
+  <circle cx="340" cy="160" r="5" fill="#FF4E00"/>
+  <circle cx="400" cy="180" r="5" fill="#FF4E00"/>
+  <circle cx="440" cy="140" r="5" fill="#FF4E00"/>
+  <text x="300" y="360" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600" fill="#1F2027" text-anchor="middle">capability-digital</text>
+</svg>

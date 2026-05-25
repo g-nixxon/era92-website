@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="work-2 placeholder">
+  <rect width="800" height="600" fill="#1F2027"/>
+  <rect x="200" y="180" width="400" height="240" fill="none" stroke="#FAF6ED" stroke-width="3"/>
+  <line x1="200" y1="180" x2="600" y2="420" stroke="#0092B4" stroke-width="3"/>
+  <line x1="600" y1="180" x2="200" y2="420" stroke="#0092B4" stroke-width="3"/>
+  <text x="400" y="555" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="600" fill="#FAF6ED" text-anchor="middle">work-2</text>
+</svg>

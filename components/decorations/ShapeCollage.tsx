@@ -20,12 +20,13 @@ type ShapePlacement = {
 };
 
 // One orange accent per collage at most — see orange usage rules in README.
+// Hero layout hides 2 shapes below md: so mobile gets a simpler 2-shape composition.
 const LAYOUTS: Record<Layout, ShapePlacement[]> = {
   hero: [
     { Component: AsteriskShape, className: "absolute -top-6 -left-6 rotate-12", size: 56, color: "#FF4E00" },
-    { Component: SparkleShape, className: "absolute -top-8 right-10 -rotate-12", size: 40 },
-    { Component: CubeWireframe, className: "absolute -bottom-6 -right-8 rotate-6", size: 64 },
-    { Component: DottedGridSquare, className: "absolute -bottom-10 left-6 -rotate-6", size: 48 },
+    { Component: CubeWireframe, className: "absolute -bottom-6 -right-8 rotate-6", size: 64, color: "#0092B4" },
+    { Component: SparkleShape, className: "hidden md:block absolute -top-8 right-10 -rotate-12", size: 40 },
+    { Component: DottedGridSquare, className: "hidden md:block absolute -bottom-10 left-6 -rotate-6", size: 48 },
   ],
   side: [
     { Component: ArcRadial, className: "absolute -top-4 -right-4", size: 52 },

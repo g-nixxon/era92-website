@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="work-1 placeholder">
+  <rect width="800" height="600" fill="#D6D1C2"/>
+  <circle cx="400" cy="280" r="120" fill="#FF4E00" opacity="0.85"/>
+  <rect x="120" y="440" width="560" height="40" fill="#1F2027" opacity="0.55"/>
+  <text x="400" y="555" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="600" fill="#1F2027" text-anchor="middle">work-1</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="hero-portrait-1 placeholder">
+  <rect width="600" height="600" fill="#D6D1C2"/>
+  <circle cx="300" cy="230" r="80" fill="#6B6660" opacity="0.5"/>
+  <path d="M150 480 Q300 360 450 480 L450 600 L150 600 Z" fill="#6B6660" opacity="0.5"/>
+  <text x="300" y="555" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1F2027" text-anchor="middle">hero-portrait-1</text>
+</svg>
