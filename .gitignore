@@ -28,8 +28,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
+# env files — track .env.example so teammates know which vars to set,
+# but never commit actual env files containing real values.
 .env*
+!.env.example
 
 # vercel
 .vercel

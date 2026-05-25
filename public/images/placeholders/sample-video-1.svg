@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="sample-video-1 placeholder">
+  <rect width="600" height="400" fill="#1F2027"/>
+  <rect x="80" y="80" width="440" height="240" fill="#6B6660" opacity="0.4"/>
+  <circle cx="300" cy="200" r="44" fill="#FAF6ED" opacity="0.95"/>
+  <polygon points="288,180 288,220 322,200" fill="#1F2027"/>
+  <rect x="100" y="296" width="60" height="6" fill="#FF4E00"/>
+  <rect x="160" y="296" width="320" height="6" fill="#FAF6ED" opacity="0.3"/>
+  <text x="300" y="370" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FAF6ED" text-anchor="middle">sample-video-1</text>
+</svg>

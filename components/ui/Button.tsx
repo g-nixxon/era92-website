@@ -40,7 +40,7 @@ type ButtonAsLink = CommonProps & {
 export function Button(props: ButtonAsButton | ButtonAsLink) {
   const { variant = "primary", size = "md", className = "", children } = props;
   const base =
-    "inline-flex items-center gap-2 font-body font-medium rounded-full transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-cream focus-visible:ring-charcoal";
+    "inline-flex items-center justify-center gap-2 font-body font-medium rounded-full transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-cream focus-visible:ring-charcoal";
   const sizeClass = variant === "text-link" ? "" : SIZE_CLASSES[size];
   const merged = `${base} ${VARIANT_CLASSES[variant]} ${sizeClass} ${className}`.trim();
 
