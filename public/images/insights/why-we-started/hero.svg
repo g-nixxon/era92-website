@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="why-we-started hero placeholder">
+  <rect width="1600" height="900" fill="#D6D1C2"/>
+  <circle cx="800" cy="400" r="220" fill="#1F2027" opacity="0.55"/>
+  <path d="M460 760 Q800 540 1140 760 L1140 900 L460 900 Z" fill="#1F2027" opacity="0.55"/>
+  <text x="800" y="860" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1F2027" text-anchor="middle">why-we-started / hero</text>
+</svg>

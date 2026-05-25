@@ -1,4 +1,5 @@
 import { getAllCaseStudies } from "@/lib/case-studies";
+import { getAllInsights } from "@/lib/insights";
 
 // Sitemap as a Route Handler rather than the app/sitemap.ts file convention.
 // Why: Next 14's next-metadata-route-loader embeds the source file path in
@@ -15,6 +16,8 @@ const STATIC_ROUTES = [
   "/about",
   "/contact",
   "/hire",
+  "/impact",
+  "/insights",
   "/partner",
   "/portfolio",
   "/ventures",
@@ -45,6 +48,9 @@ export async function GET() {
   }
   for (const study of getAllCaseStudies()) {
     entries.push(urlEntry(`${SITE_URL}/portfolio/${study.slug}`, now, 0.6));
+  }
+  for (const insight of getAllInsights()) {
+    entries.push(urlEntry(`${SITE_URL}/insights/${insight.slug}`, now, 0.6));
   }
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join("\n")}\n</urlset>`;
   return new Response(xml, {

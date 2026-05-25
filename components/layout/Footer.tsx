@@ -13,6 +13,8 @@ const VENTURES = [
 
 const COMPANY = [
   { href: "/about", label: "About" },
+  { href: "/insights", label: "Insights" },
+  { href: "/impact", label: "Impact" },
   { href: "/hire", label: "Hire Us" },
   { href: "/partner", label: "Partner" },
   { href: "/contact", label: "Contact" },

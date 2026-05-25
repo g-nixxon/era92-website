@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="q1-2026-update hero placeholder">
+  <rect width="1600" height="900" fill="#FAF6ED"/>
+  <polyline points="200,700 400,560 600,620 800,440 1000,520 1200,360 1400,420" fill="none" stroke="#1F2027" stroke-width="4"/>
+  <circle cx="200" cy="700" r="10" fill="#FF4E00"/>
+  <circle cx="400" cy="560" r="10" fill="#FF4E00"/>
+  <circle cx="600" cy="620" r="10" fill="#FF4E00"/>
+  <circle cx="800" cy="440" r="10" fill="#FF4E00"/>
+  <circle cx="1000" cy="520" r="10" fill="#FF4E00"/>
+  <circle cx="1200" cy="360" r="10" fill="#FF4E00"/>
+  <circle cx="1400" cy="420" r="10" fill="#FF4E00"/>
+  <text x="800" y="860" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600" fill="#1F2027" text-anchor="middle">q1-2026-update / hero</text>
+</svg>

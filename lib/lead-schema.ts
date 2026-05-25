@@ -39,7 +39,7 @@ const nameField = z.string().trim().min(2, "Please enter your name.");
 const emailField = z.string().trim().email("Please enter a valid email address.");
 
 // ---------- Source literals ----------
-export const SOURCES = ["hire", "contact", "partner"] as const;
+export const SOURCES = ["hire", "contact", "partner", "annual-report"] as const;
 export type LeadSource = (typeof SOURCES)[number];
 
 // ---------- Hire ----------
@@ -95,17 +95,27 @@ export const partnerSchema = z.object({
     .min(30, "Please give us at least 30 characters."),
 });
 
+// ---------- Annual report gate (Impact page) ----------
+export const annualReportSchema = z.object({
+  source: z.literal("annual-report"),
+  name: nameField,
+  email: emailField,
+  organization: z.string().trim().max(200).optional().or(z.literal("")),
+});
+
 // ---------- Envelope (used by /api/lead) ----------
 // Discriminated by `source` so TypeScript narrows to the right shape after parsing.
 export const leadSchema = z.discriminatedUnion("source", [
   hireSchema,
   contactSchema,
   partnerSchema,
+  annualReportSchema,
 ]);
 
 export type HireInput = z.infer<typeof hireSchema>;
 export type ContactInput = z.infer<typeof contactSchema>;
 export type PartnerInput = z.infer<typeof partnerSchema>;
+export type AnnualReportInput = z.infer<typeof annualReportSchema>;
 export type LeadInput = z.infer<typeof leadSchema>;
 
 // Map for "I have a source string, give me the schema" in the route handler.
@@ -113,4 +123,5 @@ export const schemaBySource = {
   hire: hireSchema,
   contact: contactSchema,
   partner: partnerSchema,
+  "annual-report": annualReportSchema,
 } as const;

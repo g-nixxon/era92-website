@@ -1,0 +1,17 @@
+%PDF-1.4
+%era92 placeholder report
+
+This file is a development placeholder so the /impact gated-download
+flow has a valid URL to point at while the real annual report is in
+production.
+
+Trinity: when the real PDF is ready, drop it in this same path
+(public/reports/era92-2024-annual-report.pdf) and the form's success
+state will start handing out the real document automatically — no
+code change required.
+
+If a browser tried to render this file as a PDF and failed: that's
+expected. It's just a marker file. Email trinity@era92.com if you
+need the report ahead of release.
+
+%%EOF

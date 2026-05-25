@@ -24,6 +24,7 @@ const NAV_LINKS: NavLink[] = [
   { href: "/portfolio", label: "Portfolio" },
   { href: "/ventures", label: "Ventures", children: VENTURE_LINKS },
   { href: "/insights", label: "Insights" },
+  { href: "/impact", label: "Impact" },
   { href: "/partner", label: "Partner" },
   { href: "/contact", label: "Contact" },
 ];
