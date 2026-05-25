@@ -11,6 +11,8 @@ const NAV_LINKS = [
   { href: "/portfolio", label: "Portfolio" },
   { href: "/ventures", label: "Ventures" },
   { href: "/insights", label: "Insights" },
+  { href: "/partner", label: "Partner" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -24,7 +26,7 @@ export function Header() {
             era92
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-8" aria-label="Primary">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}

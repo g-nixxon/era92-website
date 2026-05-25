@@ -1,11 +1,21 @@
 import Link from "next/link";
 import { Container } from "./Container";
 
+// Venture names + slugs match the homepage TheModel section and the /about
+// /about Model section. The real four ventures are Elevate/Creative/Fund/Hub —
+// any drift here breaks the in-page nav and Trinity's mental model.
 const VENTURES = [
-  { href: "/ventures/studio", label: "era92 Studio" },
-  { href: "/ventures/labs", label: "era92 Labs" },
-  { href: "/ventures/capital", label: "era92 Capital" },
-  { href: "/ventures/press", label: "era92 Press" },
+  { href: "/ventures/elevate", label: "era92 Elevate" },
+  { href: "/ventures/creative", label: "era92 Creative" },
+  { href: "/ventures/fund", label: "era92 Fund" },
+  { href: "/ventures/hub", label: "era92 Hub" },
+];
+
+const COMPANY = [
+  { href: "/about", label: "About" },
+  { href: "/hire", label: "Hire Us" },
+  { href: "/partner", label: "Partner" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const SOCIAL = [
@@ -21,7 +31,7 @@ export function Footer() {
     <footer className="bg-charcoal text-cream">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 py-16">
-          <div className="md:col-span-5">
+          <div className="md:col-span-4">
             <p className="font-display text-3xl md:text-4xl leading-tight">
               Let&rsquo;s build something <em className="italic">worth keeping</em>.
             </p>
@@ -33,7 +43,7 @@ export function Footer() {
             </a>
           </div>
 
-          <div className="md:col-span-3">
+          <div className="md:col-span-2">
             <h3 className="text-xs uppercase tracking-widest text-orange font-body mb-4">
               Ventures
             </h3>
@@ -45,6 +55,24 @@ export function Footer() {
                     className="font-body text-cream/90 hover:text-cream hover:underline decoration-orange underline-offset-4 decoration-2"
                   >
                     {v.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="md:col-span-2">
+            <h3 className="text-xs uppercase tracking-widest text-orange font-body mb-4">
+              Company
+            </h3>
+            <ul className="space-y-2">
+              {COMPANY.map((c) => (
+                <li key={c.href}>
+                  <Link
+                    href={c.href}
+                    className="font-body text-cream/90 hover:text-cream hover:underline decoration-orange underline-offset-4 decoration-2"
+                  >
+                    {c.label}
                   </Link>
                 </li>
               ))}
@@ -76,7 +104,7 @@ export function Footer() {
             <address className="not-italic font-body text-cream/90 text-sm leading-relaxed">
               By appointment
               <br />
-              Atlanta, GA
+              Kampala, Uganda
             </address>
           </div>
         </div>

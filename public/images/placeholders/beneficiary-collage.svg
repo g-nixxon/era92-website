@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" width="600" height="720" role="img" aria-label="beneficiary-collage placeholder">
+  <rect width="600" height="720" fill="#F5F0E5"/>
+  <circle cx="220" cy="220" r="100" fill="#6B6660" opacity="0.45"/>
+  <path d="M120 380 Q220 290 320 380 L320 460 L120 460 Z" fill="#6B6660" opacity="0.45"/>
+  <circle cx="420" cy="380" r="80" fill="#1F2027" opacity="0.45"/>
+  <path d="M340 520 Q420 450 500 520 L500 580 L340 580 Z" fill="#1F2027" opacity="0.45"/>
+  <circle cx="260" cy="540" r="65" fill="#FF4E00" opacity="0.7"/>
+  <path d="M200 660 Q260 600 320 660 L320 700 L200 700 Z" fill="#FF4E00" opacity="0.7"/>
+  <text x="300" y="688" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1F2027" text-anchor="middle">beneficiary-collage</text>
+</svg>

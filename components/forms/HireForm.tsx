@@ -9,8 +9,8 @@ import {
   BUDGET_RANGES,
   PROJECT_TYPES,
   TIMELINES,
-  leadSchema,
-  type LeadInput,
+  hireSchema,
+  type HireInput,
 } from "@/lib/lead-schema";
 
 // Styling notes
@@ -36,9 +36,10 @@ export function HireForm() {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset,
-  } = useForm<LeadInput>({
-    resolver: zodResolver(leadSchema),
+  } = useForm<HireInput>({
+    resolver: zodResolver(hireSchema),
     defaultValues: {
+      source: "hire",
       name: "",
       company: "",
       email: "",
@@ -75,7 +76,7 @@ export function HireForm() {
     );
   }
 
-  const onSubmit = async (data: LeadInput) => {
+  const onSubmit = async (data: HireInput) => {
     setSubmitState("submitting");
     try {
       const res = await fetch("/api/lead", {
